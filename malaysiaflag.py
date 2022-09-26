@@ -33,25 +33,27 @@ right(90)
 forward(100)
 end_fill()
 
-goto(35,-12)
+goto(35,-13)
 
 color('yellow')
 begin_fill()
 circle(25)
 end_fill()
 
-goto(40,-12)
+goto(45,-12)
 
 color('navyblue')
 begin_fill()
 circle(25)
 end_fill()
 
-goto(80,-40)
+goto(80,-50)
 
 color('yellow')
 begin_fill()
 for x in range(14):
-  forward(40)
-  right(168)
+  right(-120+13)
+  forward(10)
+  right(120+13)
+  forward(10)
 end_fill()
